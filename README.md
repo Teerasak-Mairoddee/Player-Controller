@@ -12,7 +12,7 @@ By paying homage to my love for combat and timing, I have developed a playable c
 # Key Aspects
 1) Hit Boxes - Making sure all hitboxes had essential roles to play. Many games utilise hitboxes to determine a more complex level of accuracy.
 2) Timing - Timing is everything. Hardcore games like the Soul's series and the likes of For Honor require timings by the millisecond which have influenced my own parry timings.
-3) Scalablilty - The options moving forward are endless. Could be easily converted into a quick reaction based mobile game. The main visoion was a Couch Co-Op story platformer.
+3) Scalablilty - The options moving forward are endless. Could be easily converted into a quick reaction based mobile game. The main vision was a Couch Co-Op story platformer.
 
 # Why?
 My Other roommate who is currently taking a Comp Sci degree came to me with a suggestion to make a game together.
