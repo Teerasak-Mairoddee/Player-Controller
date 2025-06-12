@@ -1,25 +1,74 @@
-# 2D Dark Souls!
-By paying homage to my love for combat and timing, I have developed a playable character that can menouver similarly to all the games I love.
+# 2D Dark Souls-Inspired Player Controller
 
-# Mechanics
-1) Walking Left and Right
-2) Rolling Left and Right
-3) Jumping (Can dodge attacks)
-4) Sword Striking
-5) Parrying (Timed Block)
-6) Taking damage (No penalty in this project)
+This Unity-based project is a tribute to timing-focused combat systems seen in games like Dark Souls and For Honor. The player controller includes core mechanics for a 2D action game prototype that can be extended into a full platformer, reaction-based mobile game, or local co-op experience.
 
-# Key Aspects
-1) Hit Boxes - Making sure all hitboxes had essential roles to play. Many games utilise hitboxes to determine a more complex level of accuracy.
-2) Timing - Timing is everything. Hardcore games like the Soul's series and the likes of For Honor require timings by the millisecond which have influenced my own parry timings.
-3) Scalablilty - The options moving forward are endless. Could be easily converted into a quick reaction based mobile game. The main vision was a Couch Co-Op story platformer.
+## Mechanics Implemented
 
-# Why?
-My Other roommate who is currently taking a Comp Sci degree came to me with a suggestion to make a game together.
-He knew only how to code algorithms rather than how to apply code logic to program games. I used this as a project to teach him the basics of unity and progressed the lesson into a more complex project.
+- **Movement**: Walk left and right
+- **Dodging**: Roll in both directions
+- **Jumping**: Enables dodging and platform navigation
+- **Sword Attacks**: Simple melee strikes
+- **Parrying**: Timed blocks to deflect enemy attacks
+- **Damage Reception**: Hit reaction included (no gameplay penalty in this version)
 
-# Disclaimer
-The entire game project including assets will be in this Repo.
-A free asset was used (Hero Knight). Animations were from this asset Unity Asset store.
-A prebuilt player controller may be in the prefabs list (this is not my work).
-<b>My Codes are in the Player Scripts Folder & AI Scripts folder.<b>
+## Design Focus
+
+### Hitboxes
+
+Each hitbox was carefully placed to contribute meaningfully to gameplay. This helps simulate precision-based combat where every frame and pixel counts.
+
+### Timing
+
+Inspired by Souls-like games and titles like For Honor, the parry window and combat flow rely on frame-accurate timing. The player must time rolls, parries, and strikes to maintain control of combat.
+
+### Scalability
+
+This system can serve as the foundation for:
+- A fast-paced reaction mobile game
+- A side-scrolling couch co-op campaign
+- AI-based training modules for parrying and timing practice
+
+## Why I Built This
+
+This project began as a collaboration with my housemate, who was studying computer science but unfamiliar with game development. I used this opportunity to introduce Unity fundamentals and escalate the lessons into a full, playable character controller.
+
+It allowed us to bridge theory and practice, bringing code to life through interactive design.
+
+## Project Structure
+
+- `Player Scripts/`  
+  Contains all core mechanics including movement, parrying, and combat
+
+- `AI Scripts/`  
+  Placeholder for future AI behavior and training
+
+- `Prefabs/`  
+  May include a prebuilt controller from the Unity Asset Store (not authored by me)
+
+- `Hero Knight Asset`  
+  Free asset from the Unity Asset Store used for player visuals and animations
+
+## Disclaimer
+
+- All custom logic and scripting are authored by me, located in the `Player Scripts` and `AI Scripts` folders
+- The character visuals and animations are from the free "Hero Knight" asset pack on the Unity Asset Store
+- A third-party prefab controller may exist in the prefab list. It is not my original work
+
+## How to Run
+
+1. Open the project in Unity (recommended version: 2021.3 or later)
+2. Load the main scene
+3. Press Play to test mechanics
+4. Inspect `PlayerController` and related scripts to explore the logic
+
+## Next Steps
+
+- Add enemy AI for training and combat scenarios
+- Implement health and stamina systems
+- Create level progression and environmental hazards
+- Explore online co-op or local multiplayer features
+
+## Contact
+
+For updates or collaboration:  
+https://linktr.ee/teerasakmairoddee
